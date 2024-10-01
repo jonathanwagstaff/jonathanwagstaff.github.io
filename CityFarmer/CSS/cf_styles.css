@@ -1,0 +1,55 @@
+/*jonny Wagstaff 10/1/2024*/
+
+
+#outerwrapper {
+
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+
+}
+
+main, footer { 
+clear: both;
+}
+
+body{
+	background-color: #B8D1EB;
+	color : #000000;
+	font-family: 'Times New Roman', 'Times', 'Serif';
+}
+
+main{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+nav>ul{
+	list-style-type: none;
+}
+
+h1{
+	font-family: 'Arial';
+	font-size: 2.5rem;
+}
+
+h2{
+	font-family: 'Trebuchet MS';
+	font-weight: normal;
+	font-style: Italic;
+}
+
+main ul{
+	list-style-type: url(Images/tomato.png);
+}
