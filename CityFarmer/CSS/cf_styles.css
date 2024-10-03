@@ -56,7 +56,7 @@ main ul{
 
 footer{
 	font-size: 0.75em;
-	text-center: auto;
+	text-align: center;
 	background-color: lightgreen;
 	padding-top: 10px;
 	padding-bottom: 10px;
