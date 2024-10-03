@@ -51,7 +51,7 @@ h2{
 }
 
 main ul{
-	list-style-type: url(Images/tomato.png);
+	list-style-image: url(Images/tomato.png);
 }
 
 footer{
