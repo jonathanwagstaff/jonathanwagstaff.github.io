@@ -1,0 +1,13 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('../fonts/kaushan-script/kaushanscript-regular-webfont.woff') format('woff2'),
+         url('../fonts/kaushan-script/kaushanscript-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'kaushan-script', "Times New Roman", serif;
+}
