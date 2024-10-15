@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+header{
+    background-color: #A8D6EB;
+    font-family: Anton, sans-serif;
+}
+
+#value{
+    background-color: #AEF0CC;
+}
+
+#example{
+    background-color: #E3ADB9;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.underL{
+    text-decoration: underline;
+}
+
+.overL{
+    text-decoration: overline;
+}
+
+.lineT{
+    text-decoration: line-through;
+}
