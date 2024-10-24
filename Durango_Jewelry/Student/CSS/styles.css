@@ -1,0 +1,64 @@
+
+/*Jonny Wagstaff 10/22/2024 */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');	
+@font-face {
+	font-family: 'roboto';
+	src: url(../Fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff);
+} 
+
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	width: 70%;
+	align-content: center;
+	margin:auto;
+}
+
+html{
+	background-image: url("../Images/jewelry.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main{
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Courier New', Courier, sans-serif;
+}
+
+#necklace{
+	float: left;
+	border-radius: 100%;
+}
+
+.addrightmargin{
+	margin-right: 10%;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 1.5em;
+	float: none;
+}
+
+h1{
+	font-family: pacifico;
+	font-size: 4em;
+}
+
+h2{
+	font-family: 'roboto';
+	font-size: 2em;
+	font-style: italic;
+}
