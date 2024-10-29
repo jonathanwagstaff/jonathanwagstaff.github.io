@@ -5,3 +5,22 @@ footer{
 body{
     background-color: green;
 }
+
+section{
+    display: flex;
+    flex-wrap: none;
+    width: 2750px;
+}
+
+#Description{
+    column-gap: 20px;
+}
+
+#Pictures{
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+#Science{
+    flex: 1 1 25%;
+}
