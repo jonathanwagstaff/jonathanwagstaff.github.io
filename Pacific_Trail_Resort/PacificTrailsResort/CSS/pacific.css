@@ -80,7 +80,7 @@ nav ul {
 nav ul li {
 	list-style-image: none;
 	display: block;
-	padding: 0;
+	padding: 3px 0;
 	margin: 0;
 }
 
