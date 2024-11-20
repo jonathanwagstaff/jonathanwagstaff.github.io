@@ -1,0 +1,23 @@
+div {
+    margin: 10px;
+}
+
+label {
+    margin-right: 15px;
+    width: 150px;
+    display: inline-block;
+}
+
+input{
+    font-size: 1.1rem;
+    padding: 2px;
+    border: 1px solid green;
+    transition: all ease 0.5s;
+}
+
+input:focus{
+    font-size: 1.20rem;
+    padding: 5px;
+    border: 2px solid darkgreen;
+    outline: none;
+}

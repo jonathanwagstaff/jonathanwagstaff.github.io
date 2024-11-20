@@ -1,0 +1,15 @@
+table{
+    border-color: darkgreen;
+}
+
+caption{
+    color: dodgerblue;
+}
+
+thead{
+    border-color: green;
+}
+
+tbody{
+    border-color: lightgreen;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: green;
+}
+
+.nav{
+    background-color: aquamarine;
+}
+
+hr{
+    padding: 5px;
+    background-color:orange;
+}
+
+nav a:link{
+    color:blue;
+}
+
+nav a:hover{
+    color: chocolate;
+}
+
+nav a:active{
+    color: lightgoldenrodyellow;
+}
+
