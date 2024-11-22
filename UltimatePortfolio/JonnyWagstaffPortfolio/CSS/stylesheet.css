@@ -1,9 +1,11 @@
+/*Jonny Wagstaff 11/21/2024*/
 body{
     background-color: green;
 }
 
 .nav{
     background-color: aquamarine;
+    font-size: 1.25em;
 }
 
 hr{
@@ -23,3 +25,17 @@ nav a:active{
     color: lightgoldenrodyellow;
 }
 
+footer{
+    background-color: lightgreen;
+}
+
+.icons{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkBack{
+    text-decoration: none;
+    color: cyan;
+}
