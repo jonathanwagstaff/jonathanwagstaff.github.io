@@ -1,4 +1,4 @@
-/*Jonny Wagstaff 11/21/2024*/
+/*Jonny Wagstaff 12/3/2024*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oi&display=swap');
 @font-face {
     font-family: Firecat;
@@ -52,4 +52,8 @@ footer p{
 .linkBack{
     text-decoration: none;
     color: cyan;
+}
+
+span{
+    background-color: red;
 }

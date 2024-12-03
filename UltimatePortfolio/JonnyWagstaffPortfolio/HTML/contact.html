@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--Jonathan Wagstaff 11/21/2024-->
+<!--Jonathan Wagstaff 12/3/2024-->
 <html lang="en">
     <head>
 <title>Contact</title>
@@ -60,10 +60,9 @@
         </div>
 
         <div>
-            <label for="how_to_contact">How should I contact you?: </label>
-            <select name="how_to_contact" required>
-                <option>Form of Contact</option>
-                <option value="option1">Email</option>
+            <label for="how_to_contact">How should I contact you back?: </label>
+            <select id="how_to_contact" required>
+                <option value="">Email</option>
                 <option value="option2">Phone Number</option>
                 <option value="option3">Text</option>
             </select>
@@ -80,6 +79,9 @@
 
             <input type="radio" name="reason" id="work" value="work">
             <label for="work">Work</label>
+
+            <input type="radio" name="reason" id="because" value="because">
+            <label for="because">Because</label>
         </div>
         
         <div>
