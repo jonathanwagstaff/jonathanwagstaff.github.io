@@ -18,6 +18,11 @@ h4{
     font-size: 1.25em;
 }
 
+nav ul{
+    float: left;
+    padding: 10px;
+}
+
 hr{
     padding: 5px;
     background-color:orange;
