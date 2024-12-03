@@ -1,0 +1,18 @@
+/*Jonny Wagstaff 11/21/2024*/
+
+table{
+    border-color: darkgreen;
+    background-color: white;
+}
+
+caption{
+    color: dodgerblue;
+}
+
+thead{
+    border-color: green;
+}
+
+tbody{
+    border-color: lightgreen;
+}

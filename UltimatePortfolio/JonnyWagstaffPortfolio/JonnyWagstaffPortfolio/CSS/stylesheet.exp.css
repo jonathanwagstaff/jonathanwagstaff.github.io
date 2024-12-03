@@ -1,0 +1,24 @@
+/*Jonny Wagstaff 11/21/2024*/
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 2750px;
+}
+
+#Description{
+    column-gap: 20px;
+}
+
+.Pictures{
+    width: 400px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+    background-color: teal;
+    border-radius: 25%;;
+}
