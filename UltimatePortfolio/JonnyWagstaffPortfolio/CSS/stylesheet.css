@@ -1,6 +1,16 @@
 /*Jonny Wagstaff 11/21/2024*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oi&display=swap');
+@font-face {
+    font-family: Firecat;
+    src: url(../Fonts/firecat_medium_macroman/FirecatMedium-webfont.woff);
+}
+
 body{
     background-color: green;
+}
+
+h4{
+    font-family: firecat, "Oi", sans-serif;
 }
 
 .nav{
@@ -27,6 +37,10 @@ nav a:active{
 
 footer{
     background-color: lightgreen;
+}
+
+footer p{
+    font-family: "Oi", Times, sans-serif;
 }
 
 .icons{
