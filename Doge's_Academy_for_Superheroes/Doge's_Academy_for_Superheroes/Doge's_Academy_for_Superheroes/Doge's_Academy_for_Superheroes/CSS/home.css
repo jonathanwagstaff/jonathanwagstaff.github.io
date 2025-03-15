@@ -1,0 +1,34 @@
+.events{
+  /*float: right;*/
+  /*position: fixed;*/
+
+  display: flex;
+  flex-direction: column;
+}
+
+p.events{
+  background-color: transparent;
+}
+
+.indexexempt{
+  all: initial;
+  background-color: white;
+}
+
+.faculty{
+  display: flex; 
+  align-items: center;
+
+  background-color: white;
+  width: 35%;
+  /*float: left;*/
+}
+
+.asideContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+}

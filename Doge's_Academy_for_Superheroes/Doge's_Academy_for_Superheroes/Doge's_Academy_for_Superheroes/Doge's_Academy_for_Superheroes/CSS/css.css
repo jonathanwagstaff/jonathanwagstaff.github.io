@@ -1,0 +1,54 @@
+body {
+    background-image: url(../Images/logo.jpg);
+}
+
+p, h1, h2, h3{
+    background-color: bisque;
+    text-align: center;
+}
+
+nav{
+    background-color: blue;
+    padding: 5px;
+    float: left;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden{
+    background: none;
+}
+
+form{
+    background-color: white;
+    align-content: center;
+}
+
+.exempt{
+    text-align: left;
+    background-color: white;
+}
+
+.extra_exempt{
+    text-align: left;
+    background-color: white;
+    display: inline;
+}
+
+.landing_exempt{
+    text-align: left;
+}
+
+#submit{
+    padding: 5px;
+    margin: 10px;
+}
+
+.messages{
+    background-color: antiquewhite;
+    border: 5px solid red;
+    width: 400px;
+    list-style-type: none;
+}

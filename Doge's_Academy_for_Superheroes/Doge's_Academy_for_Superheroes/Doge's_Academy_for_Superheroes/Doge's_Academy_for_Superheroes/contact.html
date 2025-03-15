@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Jonny Wagstaff 01/29/2025 -->
+<html lang="en">
+<head>
+    <meta name="author" content="Jonny Wagstaff">
+    <meta charset="UTF-8" >
+    <meta name="description" content="Jonny Wagstaff Software Developer Boise Idaho" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Doge's Academy: Contact</title>
+    <!--<link rel="stylesheet" href="../CSS/landing_page.css">-->
+    <link rel="stylesheet" href="CSS/css.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#tabs" ).tabs();
+    })
+  </script>
+
+    </head>
+  
+    <body>
+      <header>
+        <nav id="tabs"  class="navs">
+          <a href="index.html" class="nav">Home</a>
+          <a href="roles.html" class="nav">Roles</a>
+          <a href="mission.html" class="nav">Mission</a>
+          <a href="star_students.html" class="nav">Top Students</a>
+          <a href="student_help.html" class="nav">Student help</a>
+          <a href="FAQs.html" class="nav">FAQs</a>
+          <a href="contact.html" class="nav">Contact Us!</a>
+        </nav>
+        <button id="show_nav" hidden>show</button>
+        <button id="hide_nav">hide</button>
+        <h1>Contact form</h1>
+      </header>
+
+    <main>
+        <form method="post">
+            <div>
+                <label for=email_address>E-Mail:</label>
+                <input type=text name=email_address id=email_address title="Please input a email address in the example@site.com format." pattern="\w+\.?\w+@\w+\.com" required>
+                <span>*</span>
+            </div>
+ 
+            <div>
+                <label for=phone>Mobile Phone:</label>
+                <input type=text name=phone id=phone title="Please input a phone number in the USA pattern." pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                <span>*</span>
+            </div>
+
+            <div>
+                <p class="extra_exempt" id="extra_exempt">What is your reason for contacting us?:</p>
+                <br><textarea title="Reason" for="why"></textarea>
+            </div>
+
+            <div>
+                <label>Select a method for us to contact you back with:</label>
+                <input title="Texting" type=radio name=contact id=text
+                    value=text checked>Text
+                <input title="Emailing" type=radio name=contact id=email
+                    value=email>Email
+                <input title="Phoning" type="radio" name="contact" id="either"
+                    value="Either">Either
+                <input title="Don't" type=radio name=contact id=none
+                    value=none>Don't contact me
+            </div>
+
+            <input type="button" id="submit" value="submit">
+            <p id="para" class="exempt" hidden>Thank you for your input. We will try to respond to you as soon as we can.</p>
+        </form>
+    </main>
+
+    <script src="Typescript/site.js"></script>
+    <script src="Typescript/contact_form.js"></script>
+</body>
+
+</html>

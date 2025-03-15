@@ -1,0 +1,9 @@
+#button{
+    width: 190px;
+    height: 20px;
+}
+
+.motto{
+    display: flex;
+    flex-direction: column;
+}
