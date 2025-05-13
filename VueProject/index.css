@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+}
+
+
+
+nav {
+    border-style: solid;
+    background-color: lightcyan;
+
+    display: flex;
+    justify-content: space-around;
+} a {
+    margin: 18.8px;
+}
+
+#events {
+    float: right;
+    display: block;
+
+    border-style: solid;
+    border-width: 4px;
+    border-color: grey;
+}
+
+#clubs>button {
+    display: inline;
+}
+
+#clubs>div {
+    background-color: whitesmoke;
+}
+
+#startup {
+    background-color: antiquewhite;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
