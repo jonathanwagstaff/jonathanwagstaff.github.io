@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--Jonathan Wagstaff 4/30/25-->
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Vue Project</title>
+    <meta name="author" value="Jonny Wagstaff" />
+    <meta name="description" content="Jonny Wagstaff software developer Star Idaho" />
+    <meta name="keywords" content="C# server-side HTML5 CSS3 client-side " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <strong><a href="#overview">Overview</a>
+            <a href="#events">Events</a>
+            <a href="#clubs">Clubs of DAS</a>
+            <a href="#clubFaculty">Club Overseers</a>
+            <a href="#startup">Starting a Club</a></strong>
+        </nav>
+    </header>
+    <main id="app">
+        <h1>DAS Clubs</h1>
+
+        <div id="overview">
+            <h2>Overview</h2>
+            <p>Hello, these are clubs, you can join them. Or you could start one of your own!</p>
+        </div>
+        <aside id="events">
+            <h2>Club Events</h2>
+            <p>Here are some of the club events coming up in the next few weeks.</p>
+            <div class="event"><strong>Drama Demonstration When:</strong> 1-6 pm <strong>Where:</strong> Auditorium, Main building <strong>Description:</strong> This is where we show the world the true definition of drama! They believe it is silly plays and acting, but no, it is the matter of life and the dramas within! Come join us as we take turns sharing all of the hidden stories of life! refreshments will be provided.</div>
+            <div class="event"><strong>Cheesepuff buffet</strong> <strong>When:</strong> 7-10 pm <strong>Where:</strong> Cafeteria <strong>Description:</strong> All the kinds of cheesepuffs we could gain hold of will be here, as we eat to (hopefully) our stomach's content! But we don't want too many people to come, otherwise there may not be enough for the rest of us.</div>
+            <div class="event"><strong>This time for sure! Planning meeting</strong> <strong>When:</strong> By invite only <strong>Where:</strong> By invite only <strong>Description:</strong> This we'll get him for sure! During this first event, we'll plan our operation, and then, in the middle of his own event, we'll strike! No friends of Swordedger allowed.</div>
+            <div class="event"><strong>Multi-weapon Demonstration</strong> <strong>When:</strong> 3-4:30 pm <strong>Where:</strong> Gym, Main building <strong>Description:</strong> At this event, our club president Swordedger will demonstrate how and why using multiple different weapons in battle is a wise decision. He even says that there will very likely a practical demonstration at the end as this is our first event in a while, and although he won't say why or who will help him, he seems to have a strange gleam in his eyes. Come and see!</div>
+        </aside>
+        <div id="clubs">
+            <h2>Clubs of DAS</h2>
+            <p>Here are just a few of the clubs here at DAS! Click on the club titles to view more information.</p>
+            <!--Accordion?-->
+            <div id="drama">
+                <h3>The Drama Club</h3>
+                <p id="dramaClub" hidden>A place where all can come and express all the hidden dramas in their life!</p>
+            </div>
+            <div id="cheesepuff">
+                <h3>The Cheesepuff Clan</h3>
+                <p id="cheesepuffClub" hidden>Come and eat cheesepuffs with us!</p>
+            </div>
+            <div id="killSwordedger">
+                <h3>The Kill Swordedger Club</h3>
+                <p id="killSwordedgerClub" hidden>Come and help us kill Swordedger! Why, you may ask? That's a good question, and it's just because we want to!</p>
+            </div>
+            <div id="muscle">
+                <h3>The Muscle Club</h3>
+                <p id="muscleClub" hidden>Come join us in exercise, but you're only allowed to join if you have good muscles. Intruders will get pummeled or show that they deserve to be here!</p>
+            </div>
+            <div id="weapons">
+                <h3>The Weapons Club</h3>
+                <p id="weaponsClub" hidden>Come join Swordedger as we learn how to use weapons, including and being synergistic with our natural weapons and superpowers, as well as finding what to use them for!</p>
+            </div>
+        </div>
+        <div id="clubFaculty">
+            <h2>Club Overseers</h2>
+            <p>Here are some of the wonderful faculty that assist the clubs at DAS to remain (somewhat) safe and fun for everyone!</p>
+            <img alt="Birdman" src="Images/Bird_Man.jpg">
+            <img alt="Combat Teacher" src="Images/combat_teacher.jpg">
+
+        </div>
+        <div id="startup">
+            <h2>Start a Club</h2>
+            <p>Here you can fill out a form to potentially start your own club!</p>
+            <form action="mailto:warriorhero4truth@gmail.com">
+                <label for="email">What is your email for future contact?</label>
+                <input title="email"><br>
+
+                <label for="phone">Otherwise, please put your phone number for contact information:</label>
+                <input title="phone"><br>
+
+                <label for="name">What is the name of the club you wish to form?</label>
+                <input title="name"><br>
+
+                <label for="reason">In the textarea, please put why you believe your club will be a benefit to the school or to a group of students of the school:</label>
+                <textarea title="reason" placeholder="I think my idea for a club is a good thing for the school because..." cols="50" rows="5"></textarea>
+
+                <div id="submit"><br><br><button type="submit">Submit</button></div>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</body>
+</html>
