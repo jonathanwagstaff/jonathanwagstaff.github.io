@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Jonny Wagstaff 5/14/2025 -->
+<html lang="en">
+<head>
+    <meta name="author" content="Jonny Wagstaff">
+    <meta charset="UTF-8" >
+    <meta name="description" content="Jonny Wagstaff Software Developer Boise Idaho" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Doge's Academy: Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/css.css">
+    <link rel="stylesheet" href="CSS/home.css">
+</head>
+
+    <body>
+    <header>
+        <nav class="">
+        <a href="index.html" class="nav">Home</a>
+        <a href="roles.html" class="nav">Roles</a>
+        <a href="mission.html" class="nav">Mission</a>
+        <a href="star_students.html" class="nav">Top Students</a>
+        <a href="student_help.html" class="nav">Student help</a>
+        <a href="FAQs.html" class="nav">FAQs</a>
+        <a href="contact.html" class="nav">Contact Us!</a>
+        </nav>
+        <button type="button" id="show_nav" hidden>show</button>
+        <button type="button" id="hide_nav">hide</button>
+        <h1>Home</h1>
+    </header>
+
+    <main>
+    <p>
+        Welcome to Doge's Academy for Superheroes! we are confirmed as the best superschool in the world, with several different programs, each for different kinds of powers. We are on-campus only(because our campus is on a floating island over the ocean.), but we do have dormitories with deluxe options available for those who desire deluxe quarters(But they do cost extra because it takes money to run a school on a floating chunk of earth!).
+    </p>
+
+    <div class="asideContainer">
+        <p class="indexexempt">Here are some of the stellar staff here at DAS!</p>
+        <aside class="faculty">
+            <br><img id="facultyImg1" src="" alt="Faculty">
+            <img id="facultyImg2" src="" alt="More faculty">
+        </aside>
+    </div>
+
+    <aside class="events">
+        <h2>School events</h2>
+        <p>
+            Here are some of the school events for this upcoming month:
+        </p>
+        <div class="accordion" id="event">
+            <div class="accordion-item">
+            <h3 class="accordion-header"> <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">DAS Battle Tournament</button></h3>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#event"><p class="accordion-body">Where: Campus Arena<br>When: November 12-20<br>Description: One of the biggest events of the year, Doge's Academy for Superheroes is the host of their own tournament, where students participate in mock battles that are streamed across the world. This tournament is often used as a good way to gain recognition for students, with those that win both gaining prizes and later employment opportunities as nearly all of the top companies in the world use this tournament to as a sort of interview for possible employees. You better bring your A-game if you want a chance of winning!</p></div>
+            </div>
+
+            <div class="accordion-item">
+            <h3 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Surprise Race</button></h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#event"><p class="accordion-body">Where: From dormitories to the cafeteria<br>When: ???<br>Description: Done on a random night sometime this upcoming month, the Surprise Race is where all the students of each year race from their dormitories to the cafeteria, using their individual powers and talents. No warning, no rules(except for no deaths), just Go Go Go!</p></div>
+            </div>
+
+            <div class="accordion-item">
+            <h3 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Student Clubs Creation and Registration Day</button></h3>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#event"><p class="accordion-body">Where: Main Hall<br>When: 10am-7pm, October 10<br>Description: The day that students can register for clubs, or create their own if they wish. The existing clubs will have booths in the Main Hall so come and participate if you can! Anyone wanting to make their own club will have to have at least 5 members and get permission from Birdman in order to create a club, as well as figure out all the nances such as location and time.</p></div>
+            </div>
+        </div>
+    </aside>
+    </div>
+    </main>
+
+    <script src="Javascript/site.js"></script>
+    <script src="Javascript/index_page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+
+</html>

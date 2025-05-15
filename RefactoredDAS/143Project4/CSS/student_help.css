@@ -1,0 +1,10 @@
+.disabled{
+    background-color: grey;
+    color: blue;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+#error_message{
+    background-color: lightblue;
+}

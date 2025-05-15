@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--Jonny Wagstaff 5/14/2025 -->
+<html lang="en">
+<head>
+    <meta name="author" content="Jonny Wagstaff">
+    <meta charset="UTF-8" >
+    <meta name="description" content="Jonny Wagstaff Software Developer Boise Idaho" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Doge's Academy: Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/css.css">
+</head>
+
+    <body>
+    <header>
+        <nav id="tabs"  class="navs">
+        <a href="index.html" class="nav">Home</a>
+        <a href="roles.html" class="nav">Roles</a>
+        <a href="mission.html" class="nav">Mission</a>
+        <a href="star_students.html" class="nav">Top Students</a>
+        <a href="student_help.html" class="nav">Student help</a>
+        <a href="FAQs.html" class="nav">FAQs</a>
+        <a href="contact.html" class="nav">Contact Us!</a>
+        </nav>
+        <button type="button" id="show_nav" hidden>show</button>
+        <button type="button" id="hide_nav">hide</button>
+        <h1>Contact form</h1>
+    </header>
+
+    <main>
+        <form method="post">
+            <div>
+                <label for="email_address" class="form-label">E-Mail:</label>
+                <input type="email" name="email_address" id="email_address" title="Please input a email address in the example@site.com format." pattern="\w+\.?\w+@\w+\.com" class="form-control" required>
+                <span>*</span>
+            </div>
+
+            <div>
+                <label for="phone" class="form-label">Mobile Phone:</label>
+                <input type="tel" name="phone" id="phone" title="Please input a phone number in the USA pattern." pattern="\d{3}[\-]\d{3}[\-]\d{4}" class="form-control" required>
+                <span>*</span>
+            </div>
+
+            <div>
+                <p class="extra_exempt" id="extra_exempt">What is your message you wish to convey?:</p>
+                <br><textarea class="form-control" title="Reason" for="why"></textarea>
+            </div>
+
+            <div>
+                <label>Select a method for us to contact you back with:</label>
+                <input title="Texting" type="radio" name="contact" id="text"
+                    value=text checked>Text
+                <input title="Emailing" type="radio" name="contact" id="email"
+                    value="email">Email
+                <input title="Phoning" type="radio" name="contact" id="either"
+                    value="Either">Either
+                <input title="Don't" type="radio" name="contact" id="none"
+                    value="none">Don't contact me
+            </div>
+
+            <button type="submit" id="submit" class="exempt">Submit</button>
+            <div id="toast" style="display: none; background: #4caf50; color: white; padding: 10px; margin-top: 10px;">
+            Form submitted successfully!
+            </div>
+        </form>
+    </main>
+
+    <script src="Javascript/site.js"></script>
+    <script src="Javascript/contact_form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+
+</html>
