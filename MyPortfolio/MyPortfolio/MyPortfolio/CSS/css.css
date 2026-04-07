@@ -1,0 +1,38 @@
+body {
+    background-color: #F3EEDB;
+}
+
+nav {
+    background-color: #355C3D;
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-around;
+} nav>a {
+    color: #F3EEDB;
+} nav a:hover {
+    color: #C6D96F;
+} nav a:active {
+    color: #A85A4A;
+}
+
+#picture {
+    background-color: #9CAF88;
+} #picture>div {
+    float: left;
+    padding-top: 100px;
+    color: #F3EEDB;
+}
+
+footer {
+    background-color: #F3EEDB;
+    border-top: 4px solid #355C3D;
+}
+
+footer a {
+    color: #A85A4A;
+}
+
+footer a:hover {
+    color: #C6D96F;
+}

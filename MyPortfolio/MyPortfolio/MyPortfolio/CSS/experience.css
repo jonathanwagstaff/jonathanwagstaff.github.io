@@ -1,0 +1,82 @@
+#sites {
+    background-color: #9CAF88;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+#sites a {
+    color: #A85A4A;
+}
+
+#sites a:hover {
+    color: #C6D96F;
+}
+
+#sites h2 {
+    color: #355C3D;
+}
+
+#skills\/classes {
+    background-color: #9CAF88;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+#skills\/classes h2,
+#skills\/classes h3 {
+    color: #355C3D;
+}
+
+/* Modal styles for SimpleChat image */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+}
+
+/* Make the SimpleChat image clickable */
+.SimpleChat {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.SimpleChat:hover {
+    opacity: 0.8;
+}
