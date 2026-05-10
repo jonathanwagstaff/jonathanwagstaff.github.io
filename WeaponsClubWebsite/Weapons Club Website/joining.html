@@ -9,7 +9,7 @@
     <meta name="keywords" content="DAS Weapons Club" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/main.css" />
-    <link rel="stylesheet" href="joining.css" />
+    <link rel="stylesheet" href="CSS/joining.css" />
 </head>
 <body>
     <header>
@@ -18,14 +18,34 @@
             
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="members.html">Members</a>
+            <a href="members.html">Notable Members</a>
             <a href="joining.html">Joining the Club</a>
             <a href="contact.html">Contact Us</a>
+            <a href="featured.html">Monthly Feature</a>
         </nav>
             <h1>Join the Club</h1>
     </header>
     <main>
+        <p>Interested in joining the DAS Weapons Club? Fill out the form below to get started!</p>
 
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /> <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /> <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" /> <br><br>
+
+            <label for="proficiency">What weapons are you most proficient with?</label> <br>
+            <textarea id="proficiency" name="proficiency" rows="4" cols="35"></textarea> <br><br>
+
+            <label for="interests">What weapons do you want to learn about the most?</label> <br>
+            <textarea id="interests" name="interests" rows="4" cols="35"></textarea> <br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
     </main>
     <footer>
         

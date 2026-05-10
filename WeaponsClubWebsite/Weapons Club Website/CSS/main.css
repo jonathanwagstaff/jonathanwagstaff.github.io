@@ -42,7 +42,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 65px;
+    gap: 35px;
 }
 }
 @media screen and (min-width: 768px) {

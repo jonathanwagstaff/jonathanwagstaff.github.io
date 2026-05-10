@@ -30,3 +30,35 @@
         Updated: main.css and members.css, all html files, Images folder.
             To Do: A lot, including linking logo to home page.
 -->
+
+<!-- Jonny Wagstaff 4/15/2026
+    I started on the contact form, though it needs more css and fields. I also added a submitted.html page, which appears after you submit the form.
+        Updated: contact.html and contact.css.
+            Created: submit.html.
+                To Do: A lot still, including adding more to the contact form, making the Join the Club form, and polishing up submit.html.
+-->
+
+<!-- Jonny Wagstaff 5/1/2026
+    I made featured.html and featured.css, which will be Japanese styled, except for the header and footer, which will be consistent with the rest of the site. It will be about featured weapons of the month, which are historic Japanese weapons. I also added it to the main nav bar on all pages.
+        Updated: html files.
+            Created: featured.html and featured.css
+                To Do: Still a lot, but less.
+-->
+
+<!-- Jonny Wagstaff 5/7/2026
+    I finally added a form to joining.html, copying the styling from the contact form for the most part, although I did change the text color to something I thought clashed less, then changed it for contact.html as well.
+        Updated: joining.html, joining.css, contact.css
+            To Do: General improvement, especially on the Members page.
+-->
+
+<!-- Jonny Wagstaff 5/8/2026
+    I changed the styling for the home and about pages, that's just about it for today.
+        Updated, home.html, home.css, about.css.
+            To Do: Work on Members page, mostly.
+-->
+
+<!-- Jonny Wagstaff 5/9/2026
+    Today I've mostly worked on the Members page, changing it to Notable Members and adding content, while also changing the styling some.
+        Updated, all the html files in the navbar, and members.css.
+            To Do: 
+-->
