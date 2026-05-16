@@ -1,10 +1,10 @@
-<!--Jonny Wagstaff 15/5/2025
+<!--Jonny Wagstaff 5/15/2025
     I made the html files and other folders so far, and I am planning to base this off of my old portfolio to simplify things, but also to make it different, because of Javascript. I also gave boilerplate to the html.
         Updated CSS and Javascript files.
             Updated the modification log.
 -->
 
-<!--Jonny Wagstaff 16/5/2025
+<!--Jonny Wagstaff 5/16/2025
     I added an extra page to the site, as well as finished up the boilerplate for the html and did the body and nav sections for the css for as far as I can tell. I also created content in my index.html page, and have started on the footer, linking to Github and LinkedIn. I finished the form for the contact page, having used one a lot like the one in my old portfolio, although with different styling.
         Updated CSS.
             Updated the modification log.
@@ -19,5 +19,11 @@
 <!--Jonny Wagstaff 12/11/2025
     I changed the index page a bit, and I changed the about page a lot to be more professional. Added the SimpleChat picture, and made it to where when you click on it, it fills the screen, though the image itself seems blurry. I also deleted the DAS Battle Tournament because it wasn't working the way I wanted it to. Also changed the contact form a bit for better readability. I used AI to help me with a lot of this, but looked at the changes it was doing to understand.
         Updated HTML, CSS, and JavaScript file.
+            Updated the modification log.
+-->
+
+<!-- Jonny Wagstaff 5/16/2026
+    I added another project example from this semester into experience.html, along with the classes and language I took/learned. I also updated about.html and index.html, adding more to them and trying to make them a bit more professional.
+        Updated HTML files.
             Updated the modification log.
 -->
